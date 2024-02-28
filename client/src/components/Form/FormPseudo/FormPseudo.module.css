@@ -1,0 +1,15 @@
+.formPseudo {
+    border: 0.0625em solid grey;
+    border-radius: 1em;
+    padding: 2em;
+}
+.formPseudo h1 {
+    text-align: center;
+}
+
+.linkUp{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}

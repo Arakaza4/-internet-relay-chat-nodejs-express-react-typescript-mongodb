@@ -1,0 +1,20 @@
+.card {
+    border: none; /* Supprimer la bordure de la Card */
+    height: 100%; /* Définir la hauteur de la Card */
+  }
+  
+  .card-body {
+    height: 650px;
+    padding-right: 0;
+    position: static;
+  }
+  
+  .list-group {
+    border: none; /* Supprimer la bordure de la ListGroup */
+    overflow: auto;
+  }
+  
+  .list-group-item {
+    border-left: none; /* Supprimer la bordure à gauche de chaque ListGroup.Item */
+  }
+  

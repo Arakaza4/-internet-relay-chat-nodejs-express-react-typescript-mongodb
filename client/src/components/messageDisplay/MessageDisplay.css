@@ -1,0 +1,23 @@
+.message-display {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+  
+  .channel-options {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .message-container {
+    height: 85%;
+    overflow-y: auto; /* Pour le scrolling si le contenu dépasse la hauteur */
+  }
+  
+  .message-input {
+    height: 10%;
+    width: 80%;
+    padding-top: 3%;
+  }
+  

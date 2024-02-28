@@ -1,0 +1,34 @@
+.homepage-row {
+    height: 100%;
+  }
+  
+  .homepage-sidebar {
+    height: 750px;
+    overflow-y: auto;
+  }
+  
+  .homepage-content {
+    height: 750px;
+    /*overflow-y: auto;*/
+  }
+
+  .searchbar{
+    height: 10%;
+  }
+  
+  .channel-list {
+    height: 88%;
+    /*padding-bottom: 50px; /* Ajout d' un peu d'espace en bas de la liste des canaux pour éviter de cacher le dernier élément sous le footer */
+    overflow: auto;
+  }
+  
+  .select-channel-message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .hide {
+    display: none;
+  }

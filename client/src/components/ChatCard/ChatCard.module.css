@@ -1,0 +1,36 @@
+.chatCard {
+    width: 25%;
+    padding: 0 0.5em;
+}
+
+.iSendIt {
+    display: flex;
+    flex-direction: column;
+}
+.iSendIt .header {
+    text-align: start;
+    padding-left: 0.25em;
+}
+.iSendIt .content {
+    background-color: #3b71ca;
+    color: white;
+    padding: 0.5em 0.75em;
+    text-align: justify;
+    border-radius: 0.625em;
+}
+
+.iDont {
+    display: flex;
+    flex-direction: column;
+}
+.iDont .header {
+    text-align: end;
+    padding-right: 0.25em;
+}
+.iDont .content{
+    background-color: lightgrey;
+    color: black;
+    padding: 0.5em 0.75em;
+    text-align: justify;
+    border-radius: 0.625em;
+}

@@ -1,0 +1,15 @@
+#container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Hauteur de 100% de la vue */
+  }
+  
+  header, footer {
+    height: 10%; 
+  }
+  
+  .runningBox {
+    height: 80%;
+    overflow-y: auto;
+  }
+  

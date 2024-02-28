@@ -1,0 +1,20 @@
+.header {
+    padding-bottom: 2em;
+}
+.header .containerHeader {
+    margin: 2em 3em;
+}
+
+.connexionBtn:nth-child(1) {
+    text-decoration: none;
+    color: black;
+}
+.connexionBtn:nth-child(1):hover {
+    color: #0d6efd;
+}
+
+@media (max-width: 1024px) {
+    .header .containerHeader {
+        margin: 0;
+    }
+}
